@@ -1,10 +1,10 @@
 import React from 'react';
 
-function Note(title,txt){
+function Note(cons){
     return(
         <div className='note'>
-        <h1>{title}</h1>
-        <p>{txt}</p>
+        <h1>{cons.title}</h1>
+        <p>{cons.txt}</p>
         </div>
     );
 };
